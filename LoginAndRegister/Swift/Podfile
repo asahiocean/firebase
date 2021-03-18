@@ -6,6 +6,7 @@ target 'LoginAndRegister' do
   use_frameworks!
 
   # Pods for LoginAndRegister
+  pod 'Firebase/Auth'
 
   target 'LoginAndRegisterTests' do
     inherit! :search_paths
