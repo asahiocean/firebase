@@ -4,4 +4,10 @@
    <FileRef
       location = "container:LoginAndRegister.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:LoginAndRegister.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
 </Workspace>
