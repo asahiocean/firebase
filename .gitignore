@@ -660,3 +660,168 @@ LoginAndRegister/Swift/Pods/Target Support Files/PromisesObjC/PromisesObjC-umbre
 LoginAndRegister/Swift/Pods/Target Support Files/PromisesObjC/PromisesObjC.debug.xcconfig
 LoginAndRegister/Swift/Pods/Target Support Files/PromisesObjC/PromisesObjC.modulemap
 LoginAndRegister/Swift/Pods/Target Support Files/PromisesObjC/PromisesObjC.release.xcconfig
+LoginAndRegister/Swift/Pods/AppAuth/LICENSE
+LoginAndRegister/Swift/Pods/AppAuth/README.md
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuth.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuth/iOS/OIDAuthorizationService+IOS.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuth/iOS/OIDAuthorizationService+IOS.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuth/iOS/OIDAuthState+IOS.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuth/iOS/OIDAuthState+IOS.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuth/iOS/OIDExternalUserAgentCatalyst.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuth/iOS/OIDExternalUserAgentCatalyst.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuth/iOS/OIDExternalUserAgentIOS.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuth/iOS/OIDExternalUserAgentIOS.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuth/iOS/OIDExternalUserAgentIOSCustomBrowser.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuth/iOS/OIDExternalUserAgentIOSCustomBrowser.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDAuthorizationRequest.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDAuthorizationRequest.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDAuthorizationResponse.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDAuthorizationResponse.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDAuthorizationService.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDAuthorizationService.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDAuthState.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDAuthState.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDAuthStateChangeDelegate.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDAuthStateErrorDelegate.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDClientMetadataParameters.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDClientMetadataParameters.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDDefines.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDEndSessionRequest.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDEndSessionRequest.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDEndSessionResponse.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDEndSessionResponse.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDError.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDError.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDErrorUtilities.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDErrorUtilities.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDExternalUserAgent.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDExternalUserAgentRequest.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDExternalUserAgentSession.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDFieldMapping.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDFieldMapping.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDGrantTypes.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDGrantTypes.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDIDToken.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDIDToken.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDRegistrationRequest.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDRegistrationRequest.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDRegistrationResponse.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDRegistrationResponse.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDResponseTypes.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDResponseTypes.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDScopes.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDScopes.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDScopeUtilities.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDScopeUtilities.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDServiceConfiguration.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDServiceConfiguration.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDServiceDiscovery.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDServiceDiscovery.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDTokenRequest.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDTokenRequest.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDTokenResponse.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDTokenResponse.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDTokenUtilities.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDTokenUtilities.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDURLQueryComponent.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDURLQueryComponent.m
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDURLSessionProvider.h
+LoginAndRegister/Swift/Pods/AppAuth/Source/AppAuthCore/OIDURLSessionProvider.m
+LoginAndRegister/Swift/Pods/GoogleSignIn/.cocoapods.yml
+LoginAndRegister/Swift/Pods/GoogleSignIn/CHANGELOG.md
+LoginAndRegister/Swift/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/GoogleSignIn
+LoginAndRegister/Swift/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h
+LoginAndRegister/Swift/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h
+LoginAndRegister/Swift/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h
+LoginAndRegister/Swift/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h
+LoginAndRegister/Swift/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h
+LoginAndRegister/Swift/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h
+LoginAndRegister/Swift/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap
+LoginAndRegister/Swift/Pods/GoogleSignIn/README.md
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/ca.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/cs.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/da.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/de.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/el.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/en.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/en_GB.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/es.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/es_MX.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/fi.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/fr.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/fr_CA.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/google.png
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/google@2x.png
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/google@3x.png
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/he.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/hi.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/hr.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/hu.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/id.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/Info.plist
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/it.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/ja.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/ko.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/ms.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/nb.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/nl.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/pl.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/pt.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/pt_BR.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/pt_PT.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/ro.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/Roboto-Bold.ttf
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/ru.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/sk.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/sv.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/th.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/tr.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/uk.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/vi.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/zh_CN.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GoogleSignIn/Resources/GoogleSignIn.bundle/zh_TW.lproj/GoogleSignIn.strings
+LoginAndRegister/Swift/Pods/GTMAppAuth/LICENSE
+LoginAndRegister/Swift/Pods/GTMAppAuth/README.md
+LoginAndRegister/Swift/Pods/GTMAppAuth/Source/GTMAppAuth.h
+LoginAndRegister/Swift/Pods/GTMAppAuth/Source/GTMAppAuthFetcherAuthorization+Keychain.h
+LoginAndRegister/Swift/Pods/GTMAppAuth/Source/GTMAppAuthFetcherAuthorization+Keychain.m
+LoginAndRegister/Swift/Pods/GTMAppAuth/Source/GTMAppAuthFetcherAuthorization.h
+LoginAndRegister/Swift/Pods/GTMAppAuth/Source/GTMAppAuthFetcherAuthorization.m
+LoginAndRegister/Swift/Pods/GTMAppAuth/Source/GTMKeychain.h
+LoginAndRegister/Swift/Pods/GTMAppAuth/Source/GTMOAuth2KeychainCompatibility/GTMOAuth2KeychainCompatibility.h
+LoginAndRegister/Swift/Pods/GTMAppAuth/Source/GTMOAuth2KeychainCompatibility/GTMOAuth2KeychainCompatibility.m
+LoginAndRegister/Swift/Pods/GTMAppAuth/Source/iOS/GTMKeychain_iOS.m
+LoginAndRegister/Swift/Pods/GTMSessionFetcher/Source/GTMGatherInputStream.h
+LoginAndRegister/Swift/Pods/GTMSessionFetcher/Source/GTMGatherInputStream.m
+LoginAndRegister/Swift/Pods/GTMSessionFetcher/Source/GTMMIMEDocument.h
+LoginAndRegister/Swift/Pods/GTMSessionFetcher/Source/GTMMIMEDocument.m
+LoginAndRegister/Swift/Pods/GTMSessionFetcher/Source/GTMReadMonitorInputStream.h
+LoginAndRegister/Swift/Pods/GTMSessionFetcher/Source/GTMReadMonitorInputStream.m
+LoginAndRegister/Swift/Pods/Target Support Files/AppAuth/AppAuth-dummy.m
+LoginAndRegister/Swift/Pods/Target Support Files/AppAuth/AppAuth-Info.plist
+LoginAndRegister/Swift/Pods/Target Support Files/AppAuth/AppAuth-prefix.pch
+LoginAndRegister/Swift/Pods/Target Support Files/AppAuth/AppAuth-umbrella.h
+LoginAndRegister/Swift/Pods/Target Support Files/AppAuth/AppAuth.debug.xcconfig
+LoginAndRegister/Swift/Pods/Target Support Files/AppAuth/AppAuth.modulemap
+LoginAndRegister/Swift/Pods/Target Support Files/AppAuth/AppAuth.release.xcconfig
+LoginAndRegister/Swift/Pods/Target Support Files/GoogleSignIn/GoogleSignIn.debug.xcconfig
+LoginAndRegister/Swift/Pods/Target Support Files/GoogleSignIn/GoogleSignIn.release.xcconfig
+LoginAndRegister/Swift/Pods/Target Support Files/GTMAppAuth/GTMAppAuth-dummy.m
+LoginAndRegister/Swift/Pods/Target Support Files/GTMAppAuth/GTMAppAuth-Info.plist
+LoginAndRegister/Swift/Pods/Target Support Files/GTMAppAuth/GTMAppAuth-prefix.pch
+LoginAndRegister/Swift/Pods/Target Support Files/GTMAppAuth/GTMAppAuth-umbrella.h
+LoginAndRegister/Swift/Pods/Target Support Files/GTMAppAuth/GTMAppAuth.debug.xcconfig
+LoginAndRegister/Swift/Pods/Target Support Files/GTMAppAuth/GTMAppAuth.modulemap
+LoginAndRegister/Swift/Pods/Target Support Files/GTMAppAuth/GTMAppAuth.release.xcconfig
+LoginAndRegister/Swift/Pods/Target Support Files/Pods-LoginAndRegister-LoginAndRegisterUITests/Pods-LoginAndRegister-LoginAndRegisterUITests-resources-Debug-input-files.xcfilelist
+LoginAndRegister/Swift/Pods/Target Support Files/Pods-LoginAndRegister-LoginAndRegisterUITests/Pods-LoginAndRegister-LoginAndRegisterUITests-resources-Debug-output-files.xcfilelist
+LoginAndRegister/Swift/Pods/Target Support Files/Pods-LoginAndRegister-LoginAndRegisterUITests/Pods-LoginAndRegister-LoginAndRegisterUITests-resources-Release-input-files.xcfilelist
+LoginAndRegister/Swift/Pods/Target Support Files/Pods-LoginAndRegister-LoginAndRegisterUITests/Pods-LoginAndRegister-LoginAndRegisterUITests-resources-Release-output-files.xcfilelist
+LoginAndRegister/Swift/Pods/Target Support Files/Pods-LoginAndRegister-LoginAndRegisterUITests/Pods-LoginAndRegister-LoginAndRegisterUITests-resources.sh
+LoginAndRegister/Swift/Pods/Target Support Files/Pods-LoginAndRegister/Pods-LoginAndRegister-resources-Debug-input-files.xcfilelist
+LoginAndRegister/Swift/Pods/Target Support Files/Pods-LoginAndRegister/Pods-LoginAndRegister-resources-Debug-output-files.xcfilelist
+LoginAndRegister/Swift/Pods/Target Support Files/Pods-LoginAndRegister/Pods-LoginAndRegister-resources-Release-input-files.xcfilelist
+LoginAndRegister/Swift/Pods/Target Support Files/Pods-LoginAndRegister/Pods-LoginAndRegister-resources-Release-output-files.xcfilelist
+LoginAndRegister/Swift/Pods/Target Support Files/Pods-LoginAndRegister/Pods-LoginAndRegister-resources.sh

@@ -208,6 +208,7 @@
 				3D1984902603F01E00FB9281 /* Frameworks */,
 				3D1984912603F01E00FB9281 /* Resources */,
 				28BF1143D4EEB10CE45F20CB /* [CP] Embed Pods Frameworks */,
+				05ECAB1355F8FCE765927186 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,6 +247,7 @@
 				3D1984B42603F02000FB9281 /* Frameworks */,
 				3D1984B52603F02000FB9281 /* Resources */,
 				6167F48D9CFD40E0268A421B /* [CP] Embed Pods Frameworks */,
+				3C50E2494D1E0E46820CE3D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -327,6 +329,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		05ECAB1355F8FCE765927186 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister/Pods-LoginAndRegister-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister/Pods-LoginAndRegister-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister/Pods-LoginAndRegister-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		28BF1143D4EEB10CE45F20CB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,6 +361,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister/Pods-LoginAndRegister-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C50E2494D1E0E46820CE3D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister-LoginAndRegisterUITests/Pods-LoginAndRegister-LoginAndRegisterUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister-LoginAndRegisterUITests/Pods-LoginAndRegister-LoginAndRegisterUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister-LoginAndRegisterUITests/Pods-LoginAndRegister-LoginAndRegisterUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		47DBB76DB4D344DAA2766387 /* [CP] Check Pods Manifest.lock */ = {
