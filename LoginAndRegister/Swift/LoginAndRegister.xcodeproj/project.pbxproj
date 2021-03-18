@@ -101,12 +101,9 @@
 		3D1984952603F01E00FB9281 /* LoginAndRegister */ = {
 			isa = PBXGroup;
 			children = (
-				3D1984962603F01E00FB9281 /* AppDelegate.swift */,
-				3D1984982603F01E00FB9281 /* SceneDelegate.swift */,
-				3D19849A2603F01E00FB9281 /* ViewController.swift */,
-				3D19849C2603F01E00FB9281 /* Main.storyboard */,
-				3D1984A22603F02000FB9281 /* Assets.xcassets */,
-				3D1984A42603F02000FB9281 /* LaunchScreen.storyboard */,
+				3D1B1EB62603F33C006C571A /* Controllers */,
+				3D1B1EB52603F328006C571A /* Storyboards */,
+				3D1B1EB42603F311006C571A /* Root Files */,
 				3D1984A72603F02000FB9281 /* Info.plist */,
 				3D19849F2603F01E00FB9281 /* LoginAndRegister.xcdatamodeld */,
 			);
@@ -129,6 +126,33 @@
 				3D1984BD2603F02000FB9281 /* Info.plist */,
 			);
 			path = LoginAndRegisterUITests;
+			sourceTree = "<group>";
+		};
+		3D1B1EB42603F311006C571A /* Root Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D1984A22603F02000FB9281 /* Assets.xcassets */,
+				3D1984962603F01E00FB9281 /* AppDelegate.swift */,
+				3D1984982603F01E00FB9281 /* SceneDelegate.swift */,
+			);
+			path = "Root Files";
+			sourceTree = "<group>";
+		};
+		3D1B1EB52603F328006C571A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3D19849C2603F01E00FB9281 /* Main.storyboard */,
+				3D1984A42603F02000FB9281 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3D1B1EB62603F33C006C571A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D19849A2603F01E00FB9281 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
