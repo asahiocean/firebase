@@ -1,10 +1,17 @@
 import UIKit
 import CoreData
+import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
+    internal var window: UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        window = UIWindow(frame: UIScreen.main.bounds)
+        Self.defaultViewController(for: window)
+        FirebaseApp.configure()
+        Analytics.shared.report("USER", "Application launch")
         return true
     }
     
@@ -20,8 +27,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     // MARK: - Core Data stack
     lazy var persistentContainer: NSPersistentContainer = {
-        let container = NSPersistentContainer(name: "LoginAndRegister")
+        let container = NSPersistentContainer(name: "FirebaseModel")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
+            // print("▸ NSPersistentStoreDescription warning:", storeDescription)
             if let error = error as NSError? {
                 fatalError("Unresolved error \(error), \(error.userInfo)")
             }
@@ -35,8 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if context.hasChanges {
             do {
                 try context.save()
-            } catch {
-                let nserror = error as NSError
+            } catch let nserror as NSError {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
