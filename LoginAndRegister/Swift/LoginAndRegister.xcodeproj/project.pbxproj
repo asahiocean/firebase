@@ -7,18 +7,196 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0B50662611582A00DBCD3D /* String+letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B50652611582A00DBCD3D /* String+letters.swift */; };
+		3D0B50672611582A00DBCD3D /* String+letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B50652611582A00DBCD3D /* String+letters.swift */; };
+		3D0B50682611582A00DBCD3D /* String+letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B50652611582A00DBCD3D /* String+letters.swift */; };
+		3D0D1591260808B200297553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1984A22603F02000FB9281 /* Assets.xcassets */; };
+		3D0D1595260808B200297553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1984A22603F02000FB9281 /* Assets.xcassets */; };
+		3D10E979260A4A4B00B6D0A7 /* EmailAuthConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10E978260A4A4B00B6D0A7 /* EmailAuthConfigurator.swift */; };
+		3D10E97A260A4A4B00B6D0A7 /* EmailAuthConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10E978260A4A4B00B6D0A7 /* EmailAuthConfigurator.swift */; };
+		3D10E97B260A4A4B00B6D0A7 /* EmailAuthConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10E978260A4A4B00B6D0A7 /* EmailAuthConfigurator.swift */; };
+		3D10E980260A4A6800B6D0A7 /* EmailAuthPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10E97F260A4A6800B6D0A7 /* EmailAuthPresenter.swift */; };
+		3D10E981260A4A6800B6D0A7 /* EmailAuthPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10E97F260A4A6800B6D0A7 /* EmailAuthPresenter.swift */; };
+		3D10E982260A4A6800B6D0A7 /* EmailAuthPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10E97F260A4A6800B6D0A7 /* EmailAuthPresenter.swift */; };
+		3D10E987260A4AAB00B6D0A7 /* EmailAuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10E986260A4AAB00B6D0A7 /* EmailAuthRouter.swift */; };
+		3D10E988260A4AAB00B6D0A7 /* EmailAuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10E986260A4AAB00B6D0A7 /* EmailAuthRouter.swift */; };
+		3D10E989260A4AAB00B6D0A7 /* EmailAuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10E986260A4AAB00B6D0A7 /* EmailAuthRouter.swift */; };
+		3D10E98E260A4C1100B6D0A7 /* EmailAuthInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10E98D260A4C1100B6D0A7 /* EmailAuthInteractor.swift */; };
+		3D10E98F260A4C1100B6D0A7 /* EmailAuthInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10E98D260A4C1100B6D0A7 /* EmailAuthInteractor.swift */; };
+		3D10E990260A4C1100B6D0A7 /* EmailAuthInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10E98D260A4C1100B6D0A7 /* EmailAuthInteractor.swift */; };
 		3D1984972603F01E00FB9281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1984962603F01E00FB9281 /* AppDelegate.swift */; };
 		3D1984992603F01E00FB9281 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1984982603F01E00FB9281 /* SceneDelegate.swift */; };
-		3D19849B2603F01E00FB9281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D19849A2603F01E00FB9281 /* ViewController.swift */; };
-		3D19849E2603F01E00FB9281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D19849C2603F01E00FB9281 /* Main.storyboard */; };
-		3D1984A12603F01E00FB9281 /* LoginAndRegister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D19849F2603F01E00FB9281 /* LoginAndRegister.xcdatamodeld */; };
 		3D1984A32603F02000FB9281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1984A22603F02000FB9281 /* Assets.xcassets */; };
 		3D1984A62603F02000FB9281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1984A42603F02000FB9281 /* LaunchScreen.storyboard */; };
 		3D1984B12603F02000FB9281 /* LoginAndRegisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1984B02603F02000FB9281 /* LoginAndRegisterTests.swift */; };
 		3D1984BC2603F02000FB9281 /* LoginAndRegisterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1984BB2603F02000FB9281 /* LoginAndRegisterUITests.swift */; };
-		74A848E142CC42793D574304 /* Pods_LoginAndRegister.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32E1494C3F0B6CFAED3E23A /* Pods_LoginAndRegister.framework */; };
-		78D01F278A7CAC6B9BF66A90 /* Pods_LoginAndRegister_LoginAndRegisterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50955D3D3127720D4841DB40 /* Pods_LoginAndRegister_LoginAndRegisterUITests.framework */; };
-		AF8FD49E6B0E39A3A6A7F640 /* Pods_LoginAndRegisterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F29C2FB3B2A9767A7ED120 /* Pods_LoginAndRegisterTests.framework */; };
+		3D1BAE2A26114C9F002FD6D7 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BAE2926114C9F002FD6D7 /* CoreData.swift */; };
+		3D1BAE2B26114C9F002FD6D7 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BAE2926114C9F002FD6D7 /* CoreData.swift */; };
+		3D1BAE2C26114C9F002FD6D7 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BAE2926114C9F002FD6D7 /* CoreData.swift */; };
+		3D1C0327260A2FE400E5CA76 /* TermsOfUseConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C0326260A2FE400E5CA76 /* TermsOfUseConfigurator.swift */; };
+		3D1C0328260A2FE400E5CA76 /* TermsOfUseConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C0326260A2FE400E5CA76 /* TermsOfUseConfigurator.swift */; };
+		3D1C0329260A2FE400E5CA76 /* TermsOfUseConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C0326260A2FE400E5CA76 /* TermsOfUseConfigurator.swift */; };
+		3D1C0331260A303800E5CA76 /* TermsOfUsePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C0330260A303800E5CA76 /* TermsOfUsePresenter.swift */; };
+		3D1C0332260A303800E5CA76 /* TermsOfUsePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C0330260A303800E5CA76 /* TermsOfUsePresenter.swift */; };
+		3D1C0333260A303800E5CA76 /* TermsOfUsePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C0330260A303800E5CA76 /* TermsOfUsePresenter.swift */; };
+		3D1C0338260A309500E5CA76 /* TermsOfUseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C0337260A309500E5CA76 /* TermsOfUseRouter.swift */; };
+		3D1C0339260A309500E5CA76 /* TermsOfUseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C0337260A309500E5CA76 /* TermsOfUseRouter.swift */; };
+		3D1C033A260A309500E5CA76 /* TermsOfUseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C0337260A309500E5CA76 /* TermsOfUseRouter.swift */; };
+		3D1C033F260A310100E5CA76 /* TermsOfUseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C033E260A310100E5CA76 /* TermsOfUseInteractor.swift */; };
+		3D1C0340260A310100E5CA76 /* TermsOfUseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C033E260A310100E5CA76 /* TermsOfUseInteractor.swift */; };
+		3D1C0341260A310100E5CA76 /* TermsOfUseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C033E260A310100E5CA76 /* TermsOfUseInteractor.swift */; };
+		3D1C0346260A323F00E5CA76 /* TermsOfUseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C0345260A323F00E5CA76 /* TermsOfUseEntity.swift */; };
+		3D1C0347260A323F00E5CA76 /* TermsOfUseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C0345260A323F00E5CA76 /* TermsOfUseEntity.swift */; };
+		3D1C0348260A323F00E5CA76 /* TermsOfUseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C0345260A323F00E5CA76 /* TermsOfUseEntity.swift */; };
+		3D344F772612BB1400DF3BEA /* EmailProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344F752612BB1400DF3BEA /* EmailProfileViewController.swift */; };
+		3D344F782612BB1400DF3BEA /* EmailProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344F752612BB1400DF3BEA /* EmailProfileViewController.swift */; };
+		3D344F792612BB1400DF3BEA /* EmailProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344F752612BB1400DF3BEA /* EmailProfileViewController.swift */; };
+		3D344F7A2612BB1400DF3BEA /* EmailProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D344F762612BB1400DF3BEA /* EmailProfileViewController.xib */; };
+		3D344F7B2612BB1400DF3BEA /* EmailProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D344F762612BB1400DF3BEA /* EmailProfileViewController.xib */; };
+		3D344F7C2612BB1400DF3BEA /* EmailProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D344F762612BB1400DF3BEA /* EmailProfileViewController.xib */; };
+		3D344F872612BBCA00DF3BEA /* EmailProfileConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344F862612BBCA00DF3BEA /* EmailProfileConfigurator.swift */; };
+		3D344F882612BBCA00DF3BEA /* EmailProfileConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344F862612BBCA00DF3BEA /* EmailProfileConfigurator.swift */; };
+		3D344F892612BBCA00DF3BEA /* EmailProfileConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344F862612BBCA00DF3BEA /* EmailProfileConfigurator.swift */; };
+		3D344F912612BC1E00DF3BEA /* EmailProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344F902612BC1E00DF3BEA /* EmailProfileRouter.swift */; };
+		3D344F922612BC1E00DF3BEA /* EmailProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344F902612BC1E00DF3BEA /* EmailProfileRouter.swift */; };
+		3D344F932612BC1E00DF3BEA /* EmailProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344F902612BC1E00DF3BEA /* EmailProfileRouter.swift */; };
+		3D344F982612BC8800DF3BEA /* EmailProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344F972612BC8800DF3BEA /* EmailProfileInteractor.swift */; };
+		3D344F992612BC8800DF3BEA /* EmailProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344F972612BC8800DF3BEA /* EmailProfileInteractor.swift */; };
+		3D344F9A2612BC8800DF3BEA /* EmailProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344F972612BC8800DF3BEA /* EmailProfileInteractor.swift */; };
+		3D344F9F2612BD0900DF3BEA /* EmailProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344F9E2612BD0900DF3BEA /* EmailProfilePresenter.swift */; };
+		3D344FA02612BD0900DF3BEA /* EmailProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344F9E2612BD0900DF3BEA /* EmailProfilePresenter.swift */; };
+		3D344FA12612BD0900DF3BEA /* EmailProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344F9E2612BD0900DF3BEA /* EmailProfilePresenter.swift */; };
+		3D344FBE2612C10A00DF3BEA /* EmailProfileEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344FBD2612C10A00DF3BEA /* EmailProfileEntity.swift */; };
+		3D344FBF2612C10A00DF3BEA /* EmailProfileEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344FBD2612C10A00DF3BEA /* EmailProfileEntity.swift */; };
+		3D344FC02612C10A00DF3BEA /* EmailProfileEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D344FBD2612C10A00DF3BEA /* EmailProfileEntity.swift */; };
+		3D3AD4BF260759EE0045E51A /* UIViewController+Firebase+displayError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AD4BE260759EE0045E51A /* UIViewController+Firebase+displayError.swift */; };
+		3D3AD4C0260759EE0045E51A /* UIViewController+Firebase+displayError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AD4BE260759EE0045E51A /* UIViewController+Firebase+displayError.swift */; };
+		3D3AD4C1260759EE0045E51A /* UIViewController+Firebase+displayError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AD4BE260759EE0045E51A /* UIViewController+Firebase+displayError.swift */; };
+		3D3AD50426077B740045E51A /* AuthMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AD50326077B740045E51A /* AuthMethod.swift */; };
+		3D3AD50526077B740045E51A /* AuthMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AD50326077B740045E51A /* AuthMethod.swift */; };
+		3D3AD50626077B740045E51A /* AuthMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AD50326077B740045E51A /* AuthMethod.swift */; };
+		3D3AD518260782050045E51A /* CGRect+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AD517260782050045E51A /* CGRect+Center.swift */; };
+		3D3AD519260782050045E51A /* CGRect+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AD517260782050045E51A /* CGRect+Center.swift */; };
+		3D3AD51A260782050045E51A /* CGRect+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AD517260782050045E51A /* CGRect+Center.swift */; };
+		3D3AD523260782460045E51A /* UIView+id.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AD522260782460045E51A /* UIView+id.swift */; };
+		3D3AD524260782460045E51A /* UIView+id.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AD522260782460045E51A /* UIView+id.swift */; };
+		3D3AD525260782460045E51A /* UIView+id.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AD522260782460045E51A /* UIView+id.swift */; };
+		3D42E54F26061F8B00B0FCC6 /* EmailAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42E54D26061F8B00B0FCC6 /* EmailAuthViewController.swift */; };
+		3D42E55026061F8B00B0FCC6 /* EmailAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42E54D26061F8B00B0FCC6 /* EmailAuthViewController.swift */; };
+		3D42E55126061F8B00B0FCC6 /* EmailAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42E54D26061F8B00B0FCC6 /* EmailAuthViewController.swift */; };
+		3D42E55226061F8B00B0FCC6 /* EmailAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D42E54E26061F8B00B0FCC6 /* EmailAuthViewController.xib */; };
+		3D42E55326061F8B00B0FCC6 /* EmailAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D42E54E26061F8B00B0FCC6 /* EmailAuthViewController.xib */; };
+		3D42E55426061F8B00B0FCC6 /* EmailAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D42E54E26061F8B00B0FCC6 /* EmailAuthViewController.xib */; };
+		3D42E59626071F2C00B0FCC6 /* EmailRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42E59426071F2C00B0FCC6 /* EmailRegistrationViewController.swift */; };
+		3D42E59726071F2C00B0FCC6 /* EmailRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42E59426071F2C00B0FCC6 /* EmailRegistrationViewController.swift */; };
+		3D42E59826071F2C00B0FCC6 /* EmailRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42E59426071F2C00B0FCC6 /* EmailRegistrationViewController.swift */; };
+		3D42E59926071F2C00B0FCC6 /* EmailRegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D42E59526071F2C00B0FCC6 /* EmailRegistrationViewController.xib */; };
+		3D42E59A26071F2C00B0FCC6 /* EmailRegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D42E59526071F2C00B0FCC6 /* EmailRegistrationViewController.xib */; };
+		3D42E59B26071F2C00B0FCC6 /* EmailRegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D42E59526071F2C00B0FCC6 /* EmailRegistrationViewController.xib */; };
+		3D42E5A52607298C00B0FCC6 /* Array+Element+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42E5A42607298C00B0FCC6 /* Array+Element+String.swift */; };
+		3D42E5A62607298C00B0FCC6 /* Array+Element+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42E5A42607298C00B0FCC6 /* Array+Element+String.swift */; };
+		3D42E5A72607298C00B0FCC6 /* Array+Element+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42E5A42607298C00B0FCC6 /* Array+Element+String.swift */; };
+		3D42E5B02607406200B0FCC6 /* String+validEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42E5AF2607406200B0FCC6 /* String+validEmail.swift */; };
+		3D42E5B12607406200B0FCC6 /* String+validEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42E5AF2607406200B0FCC6 /* String+validEmail.swift */; };
+		3D42E5B22607406200B0FCC6 /* String+validEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42E5AF2607406200B0FCC6 /* String+validEmail.swift */; };
+		3D42E5BB2607433C00B0FCC6 /* TermsOfUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42E5BA2607433C00B0FCC6 /* TermsOfUseViewController.swift */; };
+		3D42E5BC2607433C00B0FCC6 /* TermsOfUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42E5BA2607433C00B0FCC6 /* TermsOfUseViewController.swift */; };
+		3D42E5BD2607433C00B0FCC6 /* TermsOfUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D42E5BA2607433C00B0FCC6 /* TermsOfUseViewController.swift */; };
+		3D43A77B260753D0007E90AF /* UIViewController+alertPleaseWait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D43A77A260753D0007E90AF /* UIViewController+alertPleaseWait.swift */; };
+		3D43A77C260753D0007E90AF /* UIViewController+alertPleaseWait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D43A77A260753D0007E90AF /* UIViewController+alertPleaseWait.swift */; };
+		3D43A77D260753D0007E90AF /* UIViewController+alertPleaseWait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D43A77A260753D0007E90AF /* UIViewController+alertPleaseWait.swift */; };
+		3D456DC62606080E00E90224 /* EmailAuthViewController+mainStackPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D456DC52606080E00E90224 /* EmailAuthViewController+mainStackPosition.swift */; };
+		3D456DC72606080E00E90224 /* EmailAuthViewController+mainStackPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D456DC52606080E00E90224 /* EmailAuthViewController+mainStackPosition.swift */; };
+		3D456DC82606080E00E90224 /* EmailAuthViewController+mainStackPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D456DC52606080E00E90224 /* EmailAuthViewController+mainStackPosition.swift */; };
+		3D56BA152611838000753F9D /* FirebaseModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D56BA132611838000753F9D /* FirebaseModel.xcdatamodeld */; };
+		3D56BA162611838000753F9D /* FirebaseModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D56BA132611838000753F9D /* FirebaseModel.xcdatamodeld */; };
+		3D56BA172611838000753F9D /* FirebaseModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D56BA132611838000753F9D /* FirebaseModel.xcdatamodeld */; };
+		3D56BA1D2611848800753F9D /* Firebase+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56BA1B2611848800753F9D /* Firebase+CoreDataClass.swift */; };
+		3D56BA1E2611848800753F9D /* Firebase+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56BA1B2611848800753F9D /* Firebase+CoreDataClass.swift */; };
+		3D56BA1F2611848800753F9D /* Firebase+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56BA1B2611848800753F9D /* Firebase+CoreDataClass.swift */; };
+		3D56BA202611848800753F9D /* Firebase+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56BA1C2611848800753F9D /* Firebase+CoreDataProperties.swift */; };
+		3D56BA212611848800753F9D /* Firebase+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56BA1C2611848800753F9D /* Firebase+CoreDataProperties.swift */; };
+		3D56BA222611848800753F9D /* Firebase+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56BA1C2611848800753F9D /* Firebase+CoreDataProperties.swift */; };
+		3D6A8E7926117D5D0011C1B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1984962603F01E00FB9281 /* AppDelegate.swift */; };
+		3D6A8E7A26117D5E0011C1B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1984962603F01E00FB9281 /* AppDelegate.swift */; };
+		3D739E02260FEE510073C67C /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D739E01260FEE510073C67C /* Analytics.swift */; };
+		3D739E03260FEE510073C67C /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D739E01260FEE510073C67C /* Analytics.swift */; };
+		3D739E04260FEE510073C67C /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D739E01260FEE510073C67C /* Analytics.swift */; };
+		3D739E25261011FF0073C67C /* AuthMethodTableViewCellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D739E24261011FF0073C67C /* AuthMethodTableViewCellConfigurator.swift */; };
+		3D739E26261011FF0073C67C /* AuthMethodTableViewCellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D739E24261011FF0073C67C /* AuthMethodTableViewCellConfigurator.swift */; };
+		3D739E27261011FF0073C67C /* AuthMethodTableViewCellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D739E24261011FF0073C67C /* AuthMethodTableViewCellConfigurator.swift */; };
+		3D739E2C261012710073C67C /* AuthMethodTableViewCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D739E2B261012710073C67C /* AuthMethodTableViewCellPresenter.swift */; };
+		3D739E2D261012710073C67C /* AuthMethodTableViewCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D739E2B261012710073C67C /* AuthMethodTableViewCellPresenter.swift */; };
+		3D739E2E261012710073C67C /* AuthMethodTableViewCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D739E2B261012710073C67C /* AuthMethodTableViewCellPresenter.swift */; };
+		3D739E33261012D30073C67C /* AuthMethodTableViewCellInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D739E32261012D30073C67C /* AuthMethodTableViewCellInteractor.swift */; };
+		3D739E34261012D30073C67C /* AuthMethodTableViewCellInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D739E32261012D30073C67C /* AuthMethodTableViewCellInteractor.swift */; };
+		3D739E35261012D30073C67C /* AuthMethodTableViewCellInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D739E32261012D30073C67C /* AuthMethodTableViewCellInteractor.swift */; };
+		3D7643A82605BD410021F088 /* EmailAuthNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7643A62605BD410021F088 /* EmailAuthNavigationController.swift */; };
+		3D7643A92605BD410021F088 /* EmailAuthNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7643A62605BD410021F088 /* EmailAuthNavigationController.swift */; };
+		3D7643AA2605BD410021F088 /* EmailAuthNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7643A62605BD410021F088 /* EmailAuthNavigationController.swift */; };
+		3D7643AB2605BD410021F088 /* EmailAuthNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7643A72605BD410021F088 /* EmailAuthNavigationController.xib */; };
+		3D7643AC2605BD410021F088 /* EmailAuthNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7643A72605BD410021F088 /* EmailAuthNavigationController.xib */; };
+		3D7643AD2605BD410021F088 /* EmailAuthNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7643A72605BD410021F088 /* EmailAuthNavigationController.xib */; };
+		3D7643C82605C4E60021F088 /* UIEdgeInsets+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7643C72605C4E60021F088 /* UIEdgeInsets+extensions.swift */; };
+		3D7643C92605C4E60021F088 /* UIEdgeInsets+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7643C72605C4E60021F088 /* UIEdgeInsets+extensions.swift */; };
+		3D7643CA2605C4E60021F088 /* UIEdgeInsets+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7643C72605C4E60021F088 /* UIEdgeInsets+extensions.swift */; };
+		3D92456D26047A9C00B9B937 /* ChoiceAuthMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92456C26047A9C00B9B937 /* ChoiceAuthMethodViewController.swift */; };
+		3D92456E26047A9C00B9B937 /* ChoiceAuthMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92456C26047A9C00B9B937 /* ChoiceAuthMethodViewController.swift */; };
+		3D92456F26047A9C00B9B937 /* ChoiceAuthMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92456C26047A9C00B9B937 /* ChoiceAuthMethodViewController.swift */; };
+		3D92457726047AB200B9B937 /* ChoiceAuthMethodInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92457626047AB200B9B937 /* ChoiceAuthMethodInteractor.swift */; };
+		3D92457826047AB200B9B937 /* ChoiceAuthMethodInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92457626047AB200B9B937 /* ChoiceAuthMethodInteractor.swift */; };
+		3D92457926047AB200B9B937 /* ChoiceAuthMethodInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92457626047AB200B9B937 /* ChoiceAuthMethodInteractor.swift */; };
+		3D92457E26047AC900B9B937 /* ChoiceAuthMethodPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92457D26047AC900B9B937 /* ChoiceAuthMethodPresenter.swift */; };
+		3D92457F26047AC900B9B937 /* ChoiceAuthMethodPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92457D26047AC900B9B937 /* ChoiceAuthMethodPresenter.swift */; };
+		3D92458026047AC900B9B937 /* ChoiceAuthMethodPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92457D26047AC900B9B937 /* ChoiceAuthMethodPresenter.swift */; };
+		3D92458526047ADD00B9B937 /* ChoiceAuthMethodEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92458426047ADD00B9B937 /* ChoiceAuthMethodEntity.swift */; };
+		3D92458626047ADD00B9B937 /* ChoiceAuthMethodEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92458426047ADD00B9B937 /* ChoiceAuthMethodEntity.swift */; };
+		3D92458726047ADD00B9B937 /* ChoiceAuthMethodEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92458426047ADD00B9B937 /* ChoiceAuthMethodEntity.swift */; };
+		3D92458C26047AE800B9B937 /* ChoiceAuthMethodRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92458B26047AE800B9B937 /* ChoiceAuthMethodRouter.swift */; };
+		3D92458D26047AE800B9B937 /* ChoiceAuthMethodRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92458B26047AE800B9B937 /* ChoiceAuthMethodRouter.swift */; };
+		3D92458E26047AE800B9B937 /* ChoiceAuthMethodRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D92458B26047AE800B9B937 /* ChoiceAuthMethodRouter.swift */; };
+		3D924594260484F300B9B937 /* ChoiceAuthMethodConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D924593260484F300B9B937 /* ChoiceAuthMethodConfigurator.swift */; };
+		3D924595260484F300B9B937 /* ChoiceAuthMethodConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D924593260484F300B9B937 /* ChoiceAuthMethodConfigurator.swift */; };
+		3D924596260484F300B9B937 /* ChoiceAuthMethodConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D924593260484F300B9B937 /* ChoiceAuthMethodConfigurator.swift */; };
+		3D9245AC26048E3B00B9B937 /* UIResponder+defaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9245AB26048E3B00B9B937 /* UIResponder+defaultViewController.swift */; };
+		3D9245AD26048E3B00B9B937 /* UIResponder+defaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9245AB26048E3B00B9B937 /* UIResponder+defaultViewController.swift */; };
+		3D9245AE26048E3B00B9B937 /* UIResponder+defaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9245AB26048E3B00B9B937 /* UIResponder+defaultViewController.swift */; };
+		3D93DDE7260A1FD6004B4F50 /* AuthMethodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93DDE5260A1FD6004B4F50 /* AuthMethodTableViewCell.swift */; };
+		3D93DDE8260A1FD6004B4F50 /* AuthMethodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93DDE5260A1FD6004B4F50 /* AuthMethodTableViewCell.swift */; };
+		3D93DDE9260A1FD6004B4F50 /* AuthMethodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93DDE5260A1FD6004B4F50 /* AuthMethodTableViewCell.swift */; };
+		3D93DDEA260A1FD6004B4F50 /* AuthMethodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D93DDE6260A1FD6004B4F50 /* AuthMethodTableViewCell.xib */; };
+		3D93DDEB260A1FD6004B4F50 /* AuthMethodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D93DDE6260A1FD6004B4F50 /* AuthMethodTableViewCell.xib */; };
+		3D93DDEC260A1FD6004B4F50 /* AuthMethodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D93DDE6260A1FD6004B4F50 /* AuthMethodTableViewCell.xib */; };
+		3DC305E4260B504C003A6803 /* EmailAuthEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC305E3260B504C003A6803 /* EmailAuthEntity.swift */; };
+		3DC305E5260B504C003A6803 /* EmailAuthEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC305E3260B504C003A6803 /* EmailAuthEntity.swift */; };
+		3DC305E6260B504C003A6803 /* EmailAuthEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC305E3260B504C003A6803 /* EmailAuthEntity.swift */; };
+		3DC305FF260B59EE003A6803 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC305FE260B59EE003A6803 /* Keychain.swift */; };
+		3DC30600260B59EE003A6803 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC305FE260B59EE003A6803 /* Keychain.swift */; };
+		3DC30601260B59EE003A6803 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC305FE260B59EE003A6803 /* Keychain.swift */; };
+		3DC30636260B6C8A003A6803 /* String+random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC30635260B6C8A003A6803 /* String+random.swift */; };
+		3DC30637260B6C8A003A6803 /* String+random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC30635260B6C8A003A6803 /* String+random.swift */; };
+		3DC30638260B6C8A003A6803 /* String+random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC30635260B6C8A003A6803 /* String+random.swift */; };
+		3DC3063D260B6D36003A6803 /* EmailRegistrationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3063C260B6D36003A6803 /* EmailRegistrationRouter.swift */; };
+		3DC3063E260B6D36003A6803 /* EmailRegistrationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3063C260B6D36003A6803 /* EmailRegistrationRouter.swift */; };
+		3DC3063F260B6D36003A6803 /* EmailRegistrationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3063C260B6D36003A6803 /* EmailRegistrationRouter.swift */; };
+		3DC30644260B6D58003A6803 /* EmailRegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC30643260B6D58003A6803 /* EmailRegistrationPresenter.swift */; };
+		3DC30645260B6D58003A6803 /* EmailRegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC30643260B6D58003A6803 /* EmailRegistrationPresenter.swift */; };
+		3DC30646260B6D58003A6803 /* EmailRegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC30643260B6D58003A6803 /* EmailRegistrationPresenter.swift */; };
+		3DC3064B260B6D78003A6803 /* EmailRegistrationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3064A260B6D78003A6803 /* EmailRegistrationInteractor.swift */; };
+		3DC3064C260B6D78003A6803 /* EmailRegistrationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3064A260B6D78003A6803 /* EmailRegistrationInteractor.swift */; };
+		3DC3064D260B6D78003A6803 /* EmailRegistrationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3064A260B6D78003A6803 /* EmailRegistrationInteractor.swift */; };
+		3DC30652260B6DAA003A6803 /* EmailRegistrationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC30651260B6DAA003A6803 /* EmailRegistrationEntity.swift */; };
+		3DC30653260B6DAA003A6803 /* EmailRegistrationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC30651260B6DAA003A6803 /* EmailRegistrationEntity.swift */; };
+		3DC30654260B6DAA003A6803 /* EmailRegistrationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC30651260B6DAA003A6803 /* EmailRegistrationEntity.swift */; };
+		3DC30659260B6DD4003A6803 /* EmailRegistrationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC30658260B6DD4003A6803 /* EmailRegistrationConfigurator.swift */; };
+		3DC3065A260B6DD4003A6803 /* EmailRegistrationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC30658260B6DD4003A6803 /* EmailRegistrationConfigurator.swift */; };
+		3DC3065B260B6DD4003A6803 /* EmailRegistrationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC30658260B6DD4003A6803 /* EmailRegistrationConfigurator.swift */; };
+		3DD356C7260CC05200BAAD84 /* Alertmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD356C6260CC05200BAAD84 /* Alertmanager.swift */; };
+		3DD356C8260CC05200BAAD84 /* Alertmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD356C6260CC05200BAAD84 /* Alertmanager.swift */; };
+		3DD356C9260CC05200BAAD84 /* Alertmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD356C6260CC05200BAAD84 /* Alertmanager.swift */; };
+		3DD356CE260CC33A00BAAD84 /* GetterEmailPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD356CD260CC33A00BAAD84 /* GetterEmailPass.swift */; };
+		3DD356CF260CC33A00BAAD84 /* GetterEmailPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD356CD260CC33A00BAAD84 /* GetterEmailPass.swift */; };
+		3DD356D0260CC33A00BAAD84 /* GetterEmailPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD356CD260CC33A00BAAD84 /* GetterEmailPass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,14 +217,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FDCBEC8CCA173925C6B8C4A /* Pods-LoginAndRegister-LoginAndRegisterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginAndRegister-LoginAndRegisterUITests.release.xcconfig"; path = "Target Support Files/Pods-LoginAndRegister-LoginAndRegisterUITests/Pods-LoginAndRegister-LoginAndRegisterUITests.release.xcconfig"; sourceTree = "<group>"; };
-		26F29C2FB3B2A9767A7ED120 /* Pods_LoginAndRegisterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginAndRegisterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0B50652611582A00DBCD3D /* String+letters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+letters.swift"; sourceTree = "<group>"; };
+		3D10E978260A4A4B00B6D0A7 /* EmailAuthConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAuthConfigurator.swift; sourceTree = "<group>"; };
+		3D10E97F260A4A6800B6D0A7 /* EmailAuthPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAuthPresenter.swift; sourceTree = "<group>"; };
+		3D10E986260A4AAB00B6D0A7 /* EmailAuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAuthRouter.swift; sourceTree = "<group>"; };
+		3D10E98D260A4C1100B6D0A7 /* EmailAuthInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAuthInteractor.swift; sourceTree = "<group>"; };
 		3D1984932603F01E00FB9281 /* LoginAndRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginAndRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1984962603F01E00FB9281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D1984982603F01E00FB9281 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D19849A2603F01E00FB9281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3D19849D2603F01E00FB9281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3D1984A02603F01E00FB9281 /* LoginAndRegister.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginAndRegister.xcdatamodel; sourceTree = "<group>"; };
 		3D1984A22603F02000FB9281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D1984A52603F02000FB9281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D1984A72603F02000FB9281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,13 +234,61 @@
 		3D1984B72603F02000FB9281 /* LoginAndRegisterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAndRegisterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1984BB2603F02000FB9281 /* LoginAndRegisterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAndRegisterUITests.swift; sourceTree = "<group>"; };
 		3D1984BD2603F02000FB9281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50955D3D3127720D4841DB40 /* Pods_LoginAndRegister_LoginAndRegisterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginAndRegister_LoginAndRegisterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6382228032A4D63C78128919 /* Pods-LoginAndRegister.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginAndRegister.release.xcconfig"; path = "Target Support Files/Pods-LoginAndRegister/Pods-LoginAndRegister.release.xcconfig"; sourceTree = "<group>"; };
-		8D63FFED6A0A64791D3ED141 /* Pods-LoginAndRegisterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginAndRegisterTests.release.xcconfig"; path = "Target Support Files/Pods-LoginAndRegisterTests/Pods-LoginAndRegisterTests.release.xcconfig"; sourceTree = "<group>"; };
-		976C4D97543B3F6AC974093D /* Pods-LoginAndRegister.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginAndRegister.debug.xcconfig"; path = "Target Support Files/Pods-LoginAndRegister/Pods-LoginAndRegister.debug.xcconfig"; sourceTree = "<group>"; };
-		A32E1494C3F0B6CFAED3E23A /* Pods_LoginAndRegister.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginAndRegister.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A909002BDF316C6D6410B86E /* Pods-LoginAndRegisterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginAndRegisterTests.debug.xcconfig"; path = "Target Support Files/Pods-LoginAndRegisterTests/Pods-LoginAndRegisterTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DBABD1F09E2925ECDC58DC72 /* Pods-LoginAndRegister-LoginAndRegisterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginAndRegister-LoginAndRegisterUITests.debug.xcconfig"; path = "Target Support Files/Pods-LoginAndRegister-LoginAndRegisterUITests/Pods-LoginAndRegister-LoginAndRegisterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D1BAE2926114C9F002FD6D7 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		3D1C0326260A2FE400E5CA76 /* TermsOfUseConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfUseConfigurator.swift; sourceTree = "<group>"; };
+		3D1C0330260A303800E5CA76 /* TermsOfUsePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfUsePresenter.swift; sourceTree = "<group>"; };
+		3D1C0337260A309500E5CA76 /* TermsOfUseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfUseRouter.swift; sourceTree = "<group>"; };
+		3D1C033E260A310100E5CA76 /* TermsOfUseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfUseInteractor.swift; sourceTree = "<group>"; };
+		3D1C0345260A323F00E5CA76 /* TermsOfUseEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfUseEntity.swift; sourceTree = "<group>"; };
+		3D344F752612BB1400DF3BEA /* EmailProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailProfileViewController.swift; sourceTree = "<group>"; };
+		3D344F762612BB1400DF3BEA /* EmailProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailProfileViewController.xib; sourceTree = "<group>"; };
+		3D344F862612BBCA00DF3BEA /* EmailProfileConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailProfileConfigurator.swift; sourceTree = "<group>"; };
+		3D344F902612BC1E00DF3BEA /* EmailProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailProfileRouter.swift; sourceTree = "<group>"; };
+		3D344F972612BC8800DF3BEA /* EmailProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailProfileInteractor.swift; sourceTree = "<group>"; };
+		3D344F9E2612BD0900DF3BEA /* EmailProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailProfilePresenter.swift; sourceTree = "<group>"; };
+		3D344FBD2612C10A00DF3BEA /* EmailProfileEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailProfileEntity.swift; sourceTree = "<group>"; };
+		3D3AD4BE260759EE0045E51A /* UIViewController+Firebase+displayError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Firebase+displayError.swift"; sourceTree = "<group>"; };
+		3D3AD50326077B740045E51A /* AuthMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthMethod.swift; sourceTree = "<group>"; };
+		3D3AD517260782050045E51A /* CGRect+Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Center.swift"; sourceTree = "<group>"; };
+		3D3AD522260782460045E51A /* UIView+id.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+id.swift"; sourceTree = "<group>"; };
+		3D42E54D26061F8B00B0FCC6 /* EmailAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAuthViewController.swift; sourceTree = "<group>"; };
+		3D42E54E26061F8B00B0FCC6 /* EmailAuthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailAuthViewController.xib; sourceTree = "<group>"; };
+		3D42E59426071F2C00B0FCC6 /* EmailRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailRegistrationViewController.swift; sourceTree = "<group>"; };
+		3D42E59526071F2C00B0FCC6 /* EmailRegistrationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailRegistrationViewController.xib; sourceTree = "<group>"; };
+		3D42E5A42607298C00B0FCC6 /* Array+Element+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Element+String.swift"; sourceTree = "<group>"; };
+		3D42E5AF2607406200B0FCC6 /* String+validEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+validEmail.swift"; sourceTree = "<group>"; };
+		3D42E5BA2607433C00B0FCC6 /* TermsOfUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfUseViewController.swift; sourceTree = "<group>"; };
+		3D43A77A260753D0007E90AF /* UIViewController+alertPleaseWait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+alertPleaseWait.swift"; sourceTree = "<group>"; };
+		3D456DC52606080E00E90224 /* EmailAuthViewController+mainStackPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmailAuthViewController+mainStackPosition.swift"; sourceTree = "<group>"; };
+		3D56BA142611838000753F9D /* FirebaseModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirebaseModel.xcdatamodel; sourceTree = "<group>"; };
+		3D56BA1B2611848800753F9D /* Firebase+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3D56BA1C2611848800753F9D /* Firebase+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3D739E01260FEE510073C67C /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		3D739E24261011FF0073C67C /* AuthMethodTableViewCellConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthMethodTableViewCellConfigurator.swift; sourceTree = "<group>"; };
+		3D739E2B261012710073C67C /* AuthMethodTableViewCellPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthMethodTableViewCellPresenter.swift; sourceTree = "<group>"; };
+		3D739E32261012D30073C67C /* AuthMethodTableViewCellInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthMethodTableViewCellInteractor.swift; sourceTree = "<group>"; };
+		3D7643A62605BD410021F088 /* EmailAuthNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAuthNavigationController.swift; sourceTree = "<group>"; };
+		3D7643A72605BD410021F088 /* EmailAuthNavigationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailAuthNavigationController.xib; sourceTree = "<group>"; };
+		3D7643C72605C4E60021F088 /* UIEdgeInsets+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIEdgeInsets+extensions.swift"; path = "../../../../../../../../../Documents/UIEdgeInsets+extensions.swift"; sourceTree = "<group>"; };
+		3D92456C26047A9C00B9B937 /* ChoiceAuthMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceAuthMethodViewController.swift; sourceTree = "<group>"; };
+		3D92457626047AB200B9B937 /* ChoiceAuthMethodInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceAuthMethodInteractor.swift; sourceTree = "<group>"; };
+		3D92457D26047AC900B9B937 /* ChoiceAuthMethodPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceAuthMethodPresenter.swift; sourceTree = "<group>"; };
+		3D92458426047ADD00B9B937 /* ChoiceAuthMethodEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceAuthMethodEntity.swift; sourceTree = "<group>"; };
+		3D92458B26047AE800B9B937 /* ChoiceAuthMethodRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceAuthMethodRouter.swift; sourceTree = "<group>"; };
+		3D924593260484F300B9B937 /* ChoiceAuthMethodConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceAuthMethodConfigurator.swift; sourceTree = "<group>"; };
+		3D9245AB26048E3B00B9B937 /* UIResponder+defaultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+defaultViewController.swift"; sourceTree = "<group>"; };
+		3D93DDE5260A1FD6004B4F50 /* AuthMethodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthMethodTableViewCell.swift; sourceTree = "<group>"; };
+		3D93DDE6260A1FD6004B4F50 /* AuthMethodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthMethodTableViewCell.xib; sourceTree = "<group>"; };
+		3DC305E3260B504C003A6803 /* EmailAuthEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAuthEntity.swift; sourceTree = "<group>"; };
+		3DC305FE260B59EE003A6803 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		3DC30635260B6C8A003A6803 /* String+random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+random.swift"; sourceTree = "<group>"; };
+		3DC3063C260B6D36003A6803 /* EmailRegistrationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailRegistrationRouter.swift; sourceTree = "<group>"; };
+		3DC30643260B6D58003A6803 /* EmailRegistrationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailRegistrationPresenter.swift; sourceTree = "<group>"; };
+		3DC3064A260B6D78003A6803 /* EmailRegistrationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailRegistrationInteractor.swift; sourceTree = "<group>"; };
+		3DC30651260B6DAA003A6803 /* EmailRegistrationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailRegistrationEntity.swift; sourceTree = "<group>"; };
+		3DC30658260B6DD4003A6803 /* EmailRegistrationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailRegistrationConfigurator.swift; sourceTree = "<group>"; };
+		3DD356C6260CC05200BAAD84 /* Alertmanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertmanager.swift; sourceTree = "<group>"; };
+		3DD356CD260CC33A00BAAD84 /* GetterEmailPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetterEmailPass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +296,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74A848E142CC42793D574304 /* Pods_LoginAndRegister.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +303,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF8FD49E6B0E39A3A6A7F640 /* Pods_LoginAndRegisterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +310,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78D01F278A7CAC6B9BF66A90 /* Pods_LoginAndRegister_LoginAndRegisterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +324,6 @@
 				3D1984BA2603F02000FB9281 /* LoginAndRegisterUITests */,
 				3D1984942603F01E00FB9281 /* Products */,
 				8072E2AB59B538E21074F2F4 /* Pods */,
-				F76A944ED353A0CA23A14A2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,11 +340,13 @@
 		3D1984952603F01E00FB9281 /* LoginAndRegister */ = {
 			isa = PBXGroup;
 			children = (
-				3D1B1EB62603F33C006C571A /* Controllers */,
-				3D1B1EB52603F328006C571A /* Storyboards */,
+				3D1BAE2126114A65002FD6D7 /* Storages */,
+				3D739E00260FEE2B0073C67C /* Analytics */,
+				3D7643C42605C4B80021F088 /* Helpers */,
+				3D43A7842607556D007E90AF /* NavigationControllers */,
 				3D1B1EB42603F311006C571A /* Root Files */,
-				3D1984A72603F02000FB9281 /* Info.plist */,
-				3D19849F2603F01E00FB9281 /* LoginAndRegister.xcdatamodeld */,
+				3D1B1EB52603F328006C571A /* Storyboards */,
+				3D1B1EB62603F33C006C571A /* ViewControllers */,
 			);
 			path = LoginAndRegister;
 			sourceTree = "<group>";
@@ -148,9 +372,11 @@
 		3D1B1EB42603F311006C571A /* Root Files */ = {
 			isa = PBXGroup;
 			children = (
-				3D1984A22603F02000FB9281 /* Assets.xcassets */,
+				3D1984A72603F02000FB9281 /* Info.plist */,
 				3D1984962603F01E00FB9281 /* AppDelegate.swift */,
 				3D1984982603F01E00FB9281 /* SceneDelegate.swift */,
+				3D1984A22603F02000FB9281 /* Assets.xcassets */,
+				3D9245A926048E1D00B9B937 /* Extensions */,
 			);
 			path = "Root Files";
 			sourceTree = "<group>";
@@ -158,42 +384,550 @@
 		3D1B1EB52603F328006C571A /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				3D19849C2603F01E00FB9281 /* Main.storyboard */,
 				3D1984A42603F02000FB9281 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		3D1B1EB62603F33C006C571A /* Controllers */ = {
+		3D1B1EB62603F33C006C571A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				3D19849A2603F01E00FB9281 /* ViewController.swift */,
+				3D344F622612BACC00DF3BEA /* Email */,
+				3D924563260479A100B9B937 /* ChoiceAuthMethod */,
+				3D42E5B92607433300B0FCC6 /* TermsOfUseViewController */,
 			);
-			path = Controllers;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3D1BAE2126114A65002FD6D7 /* Storages */ = {
+			isa = PBXGroup;
+			children = (
+				3D1BAE2526114A73002FD6D7 /* CoreData */,
+				3DC305FD260B59DC003A6803 /* Keychain */,
+			);
+			path = Storages;
+			sourceTree = "<group>";
+		};
+		3D1BAE2526114A73002FD6D7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3D56BA0F2611834900753F9D /* Models */,
+				3D1BAE2926114C9F002FD6D7 /* CoreData.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		3D1C031C260A2ED700E5CA76 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D42E5BA2607433C00B0FCC6 /* TermsOfUseViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D1C031D260A2EEC00E5CA76 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3D1C0337260A309500E5CA76 /* TermsOfUseRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3D1C031E260A2EF200E5CA76 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3D1C0330260A303800E5CA76 /* TermsOfUsePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3D1C031F260A2EF900E5CA76 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3D1C033E260A310100E5CA76 /* TermsOfUseInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3D1C0320260A2EFF00E5CA76 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				3D1C0345260A323F00E5CA76 /* TermsOfUseEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3D1C0321260A2F0400E5CA76 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				3D1C0326260A2FE400E5CA76 /* TermsOfUseConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		3D344F612612BAC700DF3BEA /* EmailProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D344F802612BB8F00DF3BEA /* Configurator */,
+				3D344F812612BB9500DF3BEA /* Entity */,
+				3D344F822612BB9A00DF3BEA /* Interactor */,
+				3D344F832612BB9F00DF3BEA /* Presenter */,
+				3D344F842612BBA400DF3BEA /* Router */,
+				3D344F852612BBA900DF3BEA /* View */,
+			);
+			path = EmailProfileViewController;
+			sourceTree = "<group>";
+		};
+		3D344F622612BACC00DF3BEA /* Email */ = {
+			isa = PBXGroup;
+			children = (
+				3D9246DB26051C7600B9B937 /* EmailAuthViewController */,
+				3D42E59326071ECA00B0FCC6 /* EmailRegistrationViewController */,
+				3D344F612612BAC700DF3BEA /* EmailProfileViewController */,
+			);
+			path = Email;
+			sourceTree = "<group>";
+		};
+		3D344F802612BB8F00DF3BEA /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				3D344F862612BBCA00DF3BEA /* EmailProfileConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		3D344F812612BB9500DF3BEA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				3D344FBD2612C10A00DF3BEA /* EmailProfileEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3D344F822612BB9A00DF3BEA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3D344F972612BC8800DF3BEA /* EmailProfileInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3D344F832612BB9F00DF3BEA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3D344F9E2612BD0900DF3BEA /* EmailProfilePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3D344F842612BBA400DF3BEA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3D344F902612BC1E00DF3BEA /* EmailProfileRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3D344F852612BBA900DF3BEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D344F752612BB1400DF3BEA /* EmailProfileViewController.swift */,
+				3D344F762612BB1400DF3BEA /* EmailProfileViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D3AD50D26077DCC0045E51A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D456DC4260607F900E90224 /* Extensions */,
+				3D42E54D26061F8B00B0FCC6 /* EmailAuthViewController.swift */,
+				3D42E54E26061F8B00B0FCC6 /* EmailAuthViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D3AD50E26077DD10045E51A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3D10E986260A4AAB00B6D0A7 /* EmailAuthRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3D3AD50F26077DD70045E51A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3D10E97F260A4A6800B6D0A7 /* EmailAuthPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3D3AD51026077DDC0045E51A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3D10E98D260A4C1100B6D0A7 /* EmailAuthInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3D3AD51126077DE10045E51A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				3DC305E3260B504C003A6803 /* EmailAuthEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3D3AD51226077DE60045E51A /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				3D10E978260A4A4B00B6D0A7 /* EmailAuthConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		3D3AD516260781F00045E51A /* CGRect */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AD517260782050045E51A /* CGRect+Center.swift */,
+			);
+			path = CGRect;
+			sourceTree = "<group>";
+		};
+		3D3AD521260782340045E51A /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AD522260782460045E51A /* UIView+id.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		3D42E59326071ECA00B0FCC6 /* EmailRegistrationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D88F12E260A3F240003BCB1 /* Configurator */,
+				3D88F12B260A3F230003BCB1 /* Entity */,
+				3D88F129260A3F230003BCB1 /* Interactor */,
+				3D88F12A260A3F230003BCB1 /* Presenter */,
+				3D88F12C260A3F230003BCB1 /* Router */,
+				3D88F12D260A3F240003BCB1 /* View */,
+			);
+			path = EmailRegistrationViewController;
+			sourceTree = "<group>";
+		};
+		3D42E5A22607296A00B0FCC6 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				3D42E5A32607296F00B0FCC6 /* String */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		3D42E5A32607296F00B0FCC6 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				3D42E5A42607298C00B0FCC6 /* Array+Element+String.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		3D42E5AE2607405000B0FCC6 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				3D42E5AF2607406200B0FCC6 /* String+validEmail.swift */,
+				3DC30635260B6C8A003A6803 /* String+random.swift */,
+				3D0B50652611582A00DBCD3D /* String+letters.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		3D42E5B92607433300B0FCC6 /* TermsOfUseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D1C0321260A2F0400E5CA76 /* Configurator */,
+				3D1C0320260A2EFF00E5CA76 /* Entity */,
+				3D1C031F260A2EF900E5CA76 /* Interactor */,
+				3D1C031E260A2EF200E5CA76 /* Presenter */,
+				3D1C031D260A2EEC00E5CA76 /* Router */,
+				3D1C031C260A2ED700E5CA76 /* View */,
+			);
+			path = TermsOfUseViewController;
+			sourceTree = "<group>";
+		};
+		3D43A779260753BA007E90AF /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D43A77A260753D0007E90AF /* UIViewController+alertPleaseWait.swift */,
+				3D3AD4BE260759EE0045E51A /* UIViewController+Firebase+displayError.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		3D43A7842607556D007E90AF /* NavigationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D43A78526075572007E90AF /* EmailAuthNavigationController */,
+			);
+			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
+		3D43A78526075572007E90AF /* EmailAuthNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				3D7643A62605BD410021F088 /* EmailAuthNavigationController.swift */,
+				3D7643A72605BD410021F088 /* EmailAuthNavigationController.xib */,
+			);
+			path = EmailAuthNavigationController;
+			sourceTree = "<group>";
+		};
+		3D456DC4260607F900E90224 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3D456DC52606080E00E90224 /* EmailAuthViewController+mainStackPosition.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3D56BA0F2611834900753F9D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D56BA132611838000753F9D /* FirebaseModel.xcdatamodeld */,
+				3D56BA1B2611848800753F9D /* Firebase+CoreDataClass.swift */,
+				3D56BA1C2611848800753F9D /* Firebase+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D739E00260FEE2B0073C67C /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				3D739E01260FEE510073C67C /* Analytics.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		3D739E1D261010790073C67C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D93DDE5260A1FD6004B4F50 /* AuthMethodTableViewCell.swift */,
+				3D93DDE6260A1FD6004B4F50 /* AuthMethodTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D739E1E261010890073C67C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3D739E2B261012710073C67C /* AuthMethodTableViewCellPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3D739E1F2610108F0073C67C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3D739E32261012D30073C67C /* AuthMethodTableViewCellInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3D739E20261010960073C67C /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				3D739E24261011FF0073C67C /* AuthMethodTableViewCellConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		3D7643C42605C4B80021F088 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3D7643C52605C4BE0021F088 /* Extension */,
+				3D3AD50326077B740045E51A /* AuthMethod.swift */,
+				3DD356C6260CC05200BAAD84 /* Alertmanager.swift */,
+				3DD356CD260CC33A00BAAD84 /* GetterEmailPass.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3D7643C52605C4BE0021F088 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3D42E5A22607296A00B0FCC6 /* Array */,
+				3D3AD516260781F00045E51A /* CGRect */,
+				3D42E5AE2607405000B0FCC6 /* String */,
+				3D7643C62605C4D00021F088 /* UIEdgeInsets */,
+				3D3AD521260782340045E51A /* UIView */,
+				3D43A779260753BA007E90AF /* UIViewController */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3D7643C62605C4D00021F088 /* UIEdgeInsets */ = {
+			isa = PBXGroup;
+			children = (
+				3D7643C72605C4E60021F088 /* UIEdgeInsets+extensions.swift */,
+			);
+			path = UIEdgeInsets;
+			sourceTree = "<group>";
+		};
+		3D7A70FD2607E6FF00C48008 /* AuthMethodTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3D739E20261010960073C67C /* Configurator */,
+				3D739E1F2610108F0073C67C /* Interactor */,
+				3D739E1E261010890073C67C /* Presenter */,
+				3D739E1D261010790073C67C /* View */,
+			);
+			path = AuthMethodTableViewCell;
+			sourceTree = "<group>";
+		};
+		3D88F129260A3F230003BCB1 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3DC3064A260B6D78003A6803 /* EmailRegistrationInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3D88F12A260A3F230003BCB1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3DC30643260B6D58003A6803 /* EmailRegistrationPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3D88F12B260A3F230003BCB1 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				3DC30651260B6DAA003A6803 /* EmailRegistrationEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3D88F12C260A3F230003BCB1 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3DC3063C260B6D36003A6803 /* EmailRegistrationRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3D88F12D260A3F240003BCB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D42E59426071F2C00B0FCC6 /* EmailRegistrationViewController.swift */,
+				3D42E59526071F2C00B0FCC6 /* EmailRegistrationViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D88F12E260A3F240003BCB1 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				3DC30658260B6DD4003A6803 /* EmailRegistrationConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		3D924563260479A100B9B937 /* ChoiceAuthMethod */ = {
+			isa = PBXGroup;
+			children = (
+				3D924592260484DA00B9B937 /* Configurator */,
+				3D92456A26047A3B00B9B937 /* Entity */,
+				3D92456826047A2F00B9B937 /* Interactor */,
+				3D92456926047A3500B9B937 /* Presenter */,
+				3D92456B26047A4100B9B937 /* Router */,
+				3D92456726047A2800B9B937 /* View */,
+			);
+			path = ChoiceAuthMethod;
+			sourceTree = "<group>";
+		};
+		3D92456726047A2800B9B937 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D7A70FD2607E6FF00C48008 /* AuthMethodTableViewCell */,
+				3D92456C26047A9C00B9B937 /* ChoiceAuthMethodViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D92456826047A2F00B9B937 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3D92457626047AB200B9B937 /* ChoiceAuthMethodInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3D92456926047A3500B9B937 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3D92457D26047AC900B9B937 /* ChoiceAuthMethodPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3D92456A26047A3B00B9B937 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				3D92458426047ADD00B9B937 /* ChoiceAuthMethodEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3D92456B26047A4100B9B937 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3D92458B26047AE800B9B937 /* ChoiceAuthMethodRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3D924592260484DA00B9B937 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				3D924593260484F300B9B937 /* ChoiceAuthMethodConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		3D9245A926048E1D00B9B937 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3D9245AB26048E3B00B9B937 /* UIResponder+defaultViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3D9246DB26051C7600B9B937 /* EmailAuthViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D3AD51226077DE60045E51A /* Configurator */,
+				3D3AD51126077DE10045E51A /* Entity */,
+				3D3AD51026077DDC0045E51A /* Interactor */,
+				3D3AD50F26077DD70045E51A /* Presenter */,
+				3D3AD50E26077DD10045E51A /* Router */,
+				3D3AD50D26077DCC0045E51A /* View */,
+			);
+			path = EmailAuthViewController;
+			sourceTree = "<group>";
+		};
+		3DC305FD260B59DC003A6803 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				3DC305FE260B59EE003A6803 /* Keychain.swift */,
+			);
+			path = Keychain;
 			sourceTree = "<group>";
 		};
 		8072E2AB59B538E21074F2F4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				976C4D97543B3F6AC974093D /* Pods-LoginAndRegister.debug.xcconfig */,
-				6382228032A4D63C78128919 /* Pods-LoginAndRegister.release.xcconfig */,
-				DBABD1F09E2925ECDC58DC72 /* Pods-LoginAndRegister-LoginAndRegisterUITests.debug.xcconfig */,
-				0FDCBEC8CCA173925C6B8C4A /* Pods-LoginAndRegister-LoginAndRegisterUITests.release.xcconfig */,
-				A909002BDF316C6D6410B86E /* Pods-LoginAndRegisterTests.debug.xcconfig */,
-				8D63FFED6A0A64791D3ED141 /* Pods-LoginAndRegisterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		F76A944ED353A0CA23A14A2A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A32E1494C3F0B6CFAED3E23A /* Pods_LoginAndRegister.framework */,
-				50955D3D3127720D4841DB40 /* Pods_LoginAndRegister_LoginAndRegisterUITests.framework */,
-				26F29C2FB3B2A9767A7ED120 /* Pods_LoginAndRegisterTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,12 +937,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D1984C02603F02000FB9281 /* Build configuration list for PBXNativeTarget "LoginAndRegister" */;
 			buildPhases = (
-				7A442666436658E4D74DD24A /* [CP] Check Pods Manifest.lock */,
 				3D19848F2603F01E00FB9281 /* Sources */,
 				3D1984902603F01E00FB9281 /* Frameworks */,
 				3D1984912603F01E00FB9281 /* Resources */,
-				28BF1143D4EEB10CE45F20CB /* [CP] Embed Pods Frameworks */,
-				05ECAB1355F8FCE765927186 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,7 +954,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D1984C32603F02000FB9281 /* Build configuration list for PBXNativeTarget "LoginAndRegisterTests" */;
 			buildPhases = (
-				CBBE5AF1E14184EC4CDFEC52 /* [CP] Check Pods Manifest.lock */,
 				3D1984A82603F02000FB9281 /* Sources */,
 				3D1984A92603F02000FB9281 /* Frameworks */,
 				3D1984AA2603F02000FB9281 /* Resources */,
@@ -242,12 +972,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D1984C62603F02000FB9281 /* Build configuration list for PBXNativeTarget "LoginAndRegisterUITests" */;
 			buildPhases = (
-				47DBB76DB4D344DAA2766387 /* [CP] Check Pods Manifest.lock */,
 				3D1984B32603F02000FB9281 /* Sources */,
 				3D1984B42603F02000FB9281 /* Frameworks */,
 				3D1984B52603F02000FB9281 /* Resources */,
-				6167F48D9CFD40E0268A421B /* [CP] Embed Pods Frameworks */,
-				3C50E2494D1E0E46820CE3D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -306,9 +1033,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D7643AB2605BD410021F088 /* EmailAuthNavigationController.xib in Resources */,
+				3D42E55226061F8B00B0FCC6 /* EmailAuthViewController.xib in Resources */,
+				3D93DDEA260A1FD6004B4F50 /* AuthMethodTableViewCell.xib in Resources */,
+				3D42E59926071F2C00B0FCC6 /* EmailRegistrationViewController.xib in Resources */,
 				3D1984A62603F02000FB9281 /* LaunchScreen.storyboard in Resources */,
 				3D1984A32603F02000FB9281 /* Assets.xcassets in Resources */,
-				3D19849E2603F01E00FB9281 /* Main.storyboard in Resources */,
+				3D344F7A2612BB1400DF3BEA /* EmailProfileViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +1047,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D7643AC2605BD410021F088 /* EmailAuthNavigationController.xib in Resources */,
+				3D42E55326061F8B00B0FCC6 /* EmailAuthViewController.xib in Resources */,
+				3D42E59A26071F2C00B0FCC6 /* EmailRegistrationViewController.xib in Resources */,
+				3D93DDEB260A1FD6004B4F50 /* AuthMethodTableViewCell.xib in Resources */,
+				3D0D1591260808B200297553 /* Assets.xcassets in Resources */,
+				3D344F7B2612BB1400DF3BEA /* EmailProfileViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,157 +1060,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D7643AD2605BD410021F088 /* EmailAuthNavigationController.xib in Resources */,
+				3D42E55426061F8B00B0FCC6 /* EmailAuthViewController.xib in Resources */,
+				3D42E59B26071F2C00B0FCC6 /* EmailRegistrationViewController.xib in Resources */,
+				3D93DDEC260A1FD6004B4F50 /* AuthMethodTableViewCell.xib in Resources */,
+				3D0D1595260808B200297553 /* Assets.xcassets in Resources */,
+				3D344F7C2612BB1400DF3BEA /* EmailProfileViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		05ECAB1355F8FCE765927186 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister/Pods-LoginAndRegister-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister/Pods-LoginAndRegister-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister/Pods-LoginAndRegister-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		28BF1143D4EEB10CE45F20CB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister/Pods-LoginAndRegister-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister/Pods-LoginAndRegister-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister/Pods-LoginAndRegister-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3C50E2494D1E0E46820CE3D1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister-LoginAndRegisterUITests/Pods-LoginAndRegister-LoginAndRegisterUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister-LoginAndRegisterUITests/Pods-LoginAndRegister-LoginAndRegisterUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister-LoginAndRegisterUITests/Pods-LoginAndRegister-LoginAndRegisterUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		47DBB76DB4D344DAA2766387 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LoginAndRegister-LoginAndRegisterUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6167F48D9CFD40E0268A421B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister-LoginAndRegisterUITests/Pods-LoginAndRegister-LoginAndRegisterUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister-LoginAndRegisterUITests/Pods-LoginAndRegister-LoginAndRegisterUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginAndRegister-LoginAndRegisterUITests/Pods-LoginAndRegister-LoginAndRegisterUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7A442666436658E4D74DD24A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LoginAndRegister-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CBBE5AF1E14184EC4CDFEC52 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LoginAndRegisterTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D19848F2603F01E00FB9281 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D19849B2603F01E00FB9281 /* ViewController.swift in Sources */,
+				3D7643A82605BD410021F088 /* EmailAuthNavigationController.swift in Sources */,
+				3D92457E26047AC900B9B937 /* ChoiceAuthMethodPresenter.swift in Sources */,
+				3D92458526047ADD00B9B937 /* ChoiceAuthMethodEntity.swift in Sources */,
+				3D43A77B260753D0007E90AF /* UIViewController+alertPleaseWait.swift in Sources */,
+				3D42E5BB2607433C00B0FCC6 /* TermsOfUseViewController.swift in Sources */,
+				3D1C033F260A310100E5CA76 /* TermsOfUseInteractor.swift in Sources */,
+				3D344FBE2612C10A00DF3BEA /* EmailProfileEntity.swift in Sources */,
+				3D7643C82605C4E60021F088 /* UIEdgeInsets+extensions.swift in Sources */,
+				3D92458C26047AE800B9B937 /* ChoiceAuthMethodRouter.swift in Sources */,
+				3DC30652260B6DAA003A6803 /* EmailRegistrationEntity.swift in Sources */,
+				3D456DC62606080E00E90224 /* EmailAuthViewController+mainStackPosition.swift in Sources */,
+				3DC30659260B6DD4003A6803 /* EmailRegistrationConfigurator.swift in Sources */,
+				3DC305E4260B504C003A6803 /* EmailAuthEntity.swift in Sources */,
+				3DC3063D260B6D36003A6803 /* EmailRegistrationRouter.swift in Sources */,
+				3D10E98E260A4C1100B6D0A7 /* EmailAuthInteractor.swift in Sources */,
+				3D3AD518260782050045E51A /* CGRect+Center.swift in Sources */,
+				3D9245AC26048E3B00B9B937 /* UIResponder+defaultViewController.swift in Sources */,
+				3DC3064B260B6D78003A6803 /* EmailRegistrationInteractor.swift in Sources */,
+				3D10E987260A4AAB00B6D0A7 /* EmailAuthRouter.swift in Sources */,
+				3D10E979260A4A4B00B6D0A7 /* EmailAuthConfigurator.swift in Sources */,
+				3D3AD523260782460045E51A /* UIView+id.swift in Sources */,
+				3D92456D26047A9C00B9B937 /* ChoiceAuthMethodViewController.swift in Sources */,
+				3D56BA202611848800753F9D /* Firebase+CoreDataProperties.swift in Sources */,
 				3D1984972603F01E00FB9281 /* AppDelegate.swift in Sources */,
-				3D1984A12603F01E00FB9281 /* LoginAndRegister.xcdatamodeld in Sources */,
+				3DD356CE260CC33A00BAAD84 /* GetterEmailPass.swift in Sources */,
+				3DC305FF260B59EE003A6803 /* Keychain.swift in Sources */,
+				3D344F872612BBCA00DF3BEA /* EmailProfileConfigurator.swift in Sources */,
+				3D92457726047AB200B9B937 /* ChoiceAuthMethodInteractor.swift in Sources */,
+				3D739E2C261012710073C67C /* AuthMethodTableViewCellPresenter.swift in Sources */,
+				3D739E02260FEE510073C67C /* Analytics.swift in Sources */,
+				3D1BAE2A26114C9F002FD6D7 /* CoreData.swift in Sources */,
+				3D3AD50426077B740045E51A /* AuthMethod.swift in Sources */,
+				3D42E5A52607298C00B0FCC6 /* Array+Element+String.swift in Sources */,
+				3D1C0331260A303800E5CA76 /* TermsOfUsePresenter.swift in Sources */,
+				3D344F982612BC8800DF3BEA /* EmailProfileInteractor.swift in Sources */,
+				3D42E54F26061F8B00B0FCC6 /* EmailAuthViewController.swift in Sources */,
+				3DD356C7260CC05200BAAD84 /* Alertmanager.swift in Sources */,
+				3D344F772612BB1400DF3BEA /* EmailProfileViewController.swift in Sources */,
+				3DC30644260B6D58003A6803 /* EmailRegistrationPresenter.swift in Sources */,
+				3D924594260484F300B9B937 /* ChoiceAuthMethodConfigurator.swift in Sources */,
 				3D1984992603F01E00FB9281 /* SceneDelegate.swift in Sources */,
+				3D739E25261011FF0073C67C /* AuthMethodTableViewCellConfigurator.swift in Sources */,
+				3D1C0346260A323F00E5CA76 /* TermsOfUseEntity.swift in Sources */,
+				3D42E5B02607406200B0FCC6 /* String+validEmail.swift in Sources */,
+				3D56BA152611838000753F9D /* FirebaseModel.xcdatamodeld in Sources */,
+				3DC30636260B6C8A003A6803 /* String+random.swift in Sources */,
+				3D10E980260A4A6800B6D0A7 /* EmailAuthPresenter.swift in Sources */,
+				3D42E59626071F2C00B0FCC6 /* EmailRegistrationViewController.swift in Sources */,
+				3D344F9F2612BD0900DF3BEA /* EmailProfilePresenter.swift in Sources */,
+				3D0B50662611582A00DBCD3D /* String+letters.swift in Sources */,
+				3D56BA1D2611848800753F9D /* Firebase+CoreDataClass.swift in Sources */,
+				3D93DDE7260A1FD6004B4F50 /* AuthMethodTableViewCell.swift in Sources */,
+				3D344F912612BC1E00DF3BEA /* EmailProfileRouter.swift in Sources */,
+				3D1C0327260A2FE400E5CA76 /* TermsOfUseConfigurator.swift in Sources */,
+				3D1C0338260A309500E5CA76 /* TermsOfUseRouter.swift in Sources */,
+				3D3AD4BF260759EE0045E51A /* UIViewController+Firebase+displayError.swift in Sources */,
+				3D739E33261012D30073C67C /* AuthMethodTableViewCellInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +1140,63 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D92457F26047AC900B9B937 /* ChoiceAuthMethodPresenter.swift in Sources */,
+				3D1C0332260A303800E5CA76 /* TermsOfUsePresenter.swift in Sources */,
+				3D42E55026061F8B00B0FCC6 /* EmailAuthViewController.swift in Sources */,
+				3D10E97A260A4A4B00B6D0A7 /* EmailAuthConfigurator.swift in Sources */,
+				3DD356CF260CC33A00BAAD84 /* GetterEmailPass.swift in Sources */,
+				3DC30645260B6D58003A6803 /* EmailRegistrationPresenter.swift in Sources */,
+				3D344FBF2612C10A00DF3BEA /* EmailProfileEntity.swift in Sources */,
+				3DC3065A260B6DD4003A6803 /* EmailRegistrationConfigurator.swift in Sources */,
+				3D1C0347260A323F00E5CA76 /* TermsOfUseEntity.swift in Sources */,
+				3D739E03260FEE510073C67C /* Analytics.swift in Sources */,
+				3D42E5B12607406200B0FCC6 /* String+validEmail.swift in Sources */,
+				3D1C0328260A2FE400E5CA76 /* TermsOfUseConfigurator.swift in Sources */,
+				3D739E26261011FF0073C67C /* AuthMethodTableViewCellConfigurator.swift in Sources */,
+				3DC305E5260B504C003A6803 /* EmailAuthEntity.swift in Sources */,
+				3D3AD524260782460045E51A /* UIView+id.swift in Sources */,
+				3D43A77C260753D0007E90AF /* UIViewController+alertPleaseWait.swift in Sources */,
+				3D6A8E7926117D5D0011C1B2 /* AppDelegate.swift in Sources */,
+				3D7643C92605C4E60021F088 /* UIEdgeInsets+extensions.swift in Sources */,
+				3D7643A92605BD410021F088 /* EmailAuthNavigationController.swift in Sources */,
+				3D10E988260A4AAB00B6D0A7 /* EmailAuthRouter.swift in Sources */,
+				3DD356C8260CC05200BAAD84 /* Alertmanager.swift in Sources */,
+				3DC3064C260B6D78003A6803 /* EmailRegistrationInteractor.swift in Sources */,
+				3D56BA212611848800753F9D /* Firebase+CoreDataProperties.swift in Sources */,
+				3D42E5BC2607433C00B0FCC6 /* TermsOfUseViewController.swift in Sources */,
+				3D9245AD26048E3B00B9B937 /* UIResponder+defaultViewController.swift in Sources */,
+				3DC30637260B6C8A003A6803 /* String+random.swift in Sources */,
+				3D344F882612BBCA00DF3BEA /* EmailProfileConfigurator.swift in Sources */,
+				3D10E98F260A4C1100B6D0A7 /* EmailAuthInteractor.swift in Sources */,
+				3D42E5A62607298C00B0FCC6 /* Array+Element+String.swift in Sources */,
+				3D739E34261012D30073C67C /* AuthMethodTableViewCellInteractor.swift in Sources */,
+				3D92456E26047A9C00B9B937 /* ChoiceAuthMethodViewController.swift in Sources */,
+				3DC3063E260B6D36003A6803 /* EmailRegistrationRouter.swift in Sources */,
+				3D3AD519260782050045E51A /* CGRect+Center.swift in Sources */,
+				3D1C0339260A309500E5CA76 /* TermsOfUseRouter.swift in Sources */,
+				3D344F992612BC8800DF3BEA /* EmailProfileInteractor.swift in Sources */,
+				3D1C0340260A310100E5CA76 /* TermsOfUseInteractor.swift in Sources */,
 				3D1984B12603F02000FB9281 /* LoginAndRegisterTests.swift in Sources */,
+				3D344F782612BB1400DF3BEA /* EmailProfileViewController.swift in Sources */,
+				3D739E2D261012710073C67C /* AuthMethodTableViewCellPresenter.swift in Sources */,
+				3D3AD4C0260759EE0045E51A /* UIViewController+Firebase+displayError.swift in Sources */,
+				3D93DDE8260A1FD6004B4F50 /* AuthMethodTableViewCell.swift in Sources */,
+				3D0B50672611582A00DBCD3D /* String+letters.swift in Sources */,
+				3D92458626047ADD00B9B937 /* ChoiceAuthMethodEntity.swift in Sources */,
+				3D3AD50526077B740045E51A /* AuthMethod.swift in Sources */,
+				3D56BA162611838000753F9D /* FirebaseModel.xcdatamodeld in Sources */,
+				3DC30653260B6DAA003A6803 /* EmailRegistrationEntity.swift in Sources */,
+				3DC30600260B59EE003A6803 /* Keychain.swift in Sources */,
+				3D92458D26047AE800B9B937 /* ChoiceAuthMethodRouter.swift in Sources */,
+				3D344FA02612BD0900DF3BEA /* EmailProfilePresenter.swift in Sources */,
+				3D924595260484F300B9B937 /* ChoiceAuthMethodConfigurator.swift in Sources */,
+				3D56BA1E2611848800753F9D /* Firebase+CoreDataClass.swift in Sources */,
+				3D10E981260A4A6800B6D0A7 /* EmailAuthPresenter.swift in Sources */,
+				3D344F922612BC1E00DF3BEA /* EmailProfileRouter.swift in Sources */,
+				3D456DC72606080E00E90224 /* EmailAuthViewController+mainStackPosition.swift in Sources */,
+				3D42E59726071F2C00B0FCC6 /* EmailRegistrationViewController.swift in Sources */,
+				3D1BAE2B26114C9F002FD6D7 /* CoreData.swift in Sources */,
+				3D92457826047AB200B9B937 /* ChoiceAuthMethodInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,7 +1204,63 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D92458026047AC900B9B937 /* ChoiceAuthMethodPresenter.swift in Sources */,
+				3D1C0333260A303800E5CA76 /* TermsOfUsePresenter.swift in Sources */,
+				3D42E55126061F8B00B0FCC6 /* EmailAuthViewController.swift in Sources */,
+				3D10E97B260A4A4B00B6D0A7 /* EmailAuthConfigurator.swift in Sources */,
+				3DD356D0260CC33A00BAAD84 /* GetterEmailPass.swift in Sources */,
+				3DC30646260B6D58003A6803 /* EmailRegistrationPresenter.swift in Sources */,
+				3D344FC02612C10A00DF3BEA /* EmailProfileEntity.swift in Sources */,
+				3DC3065B260B6DD4003A6803 /* EmailRegistrationConfigurator.swift in Sources */,
+				3D1C0348260A323F00E5CA76 /* TermsOfUseEntity.swift in Sources */,
+				3D739E04260FEE510073C67C /* Analytics.swift in Sources */,
+				3D42E5B22607406200B0FCC6 /* String+validEmail.swift in Sources */,
+				3D1C0329260A2FE400E5CA76 /* TermsOfUseConfigurator.swift in Sources */,
+				3D739E27261011FF0073C67C /* AuthMethodTableViewCellConfigurator.swift in Sources */,
+				3DC305E6260B504C003A6803 /* EmailAuthEntity.swift in Sources */,
+				3D3AD525260782460045E51A /* UIView+id.swift in Sources */,
+				3D43A77D260753D0007E90AF /* UIViewController+alertPleaseWait.swift in Sources */,
+				3D6A8E7A26117D5E0011C1B2 /* AppDelegate.swift in Sources */,
+				3D7643CA2605C4E60021F088 /* UIEdgeInsets+extensions.swift in Sources */,
+				3D7643AA2605BD410021F088 /* EmailAuthNavigationController.swift in Sources */,
+				3D10E989260A4AAB00B6D0A7 /* EmailAuthRouter.swift in Sources */,
+				3DD356C9260CC05200BAAD84 /* Alertmanager.swift in Sources */,
+				3DC3064D260B6D78003A6803 /* EmailRegistrationInteractor.swift in Sources */,
+				3D56BA222611848800753F9D /* Firebase+CoreDataProperties.swift in Sources */,
+				3D42E5BD2607433C00B0FCC6 /* TermsOfUseViewController.swift in Sources */,
+				3D9245AE26048E3B00B9B937 /* UIResponder+defaultViewController.swift in Sources */,
+				3DC30638260B6C8A003A6803 /* String+random.swift in Sources */,
+				3D344F892612BBCA00DF3BEA /* EmailProfileConfigurator.swift in Sources */,
+				3D10E990260A4C1100B6D0A7 /* EmailAuthInteractor.swift in Sources */,
+				3D42E5A72607298C00B0FCC6 /* Array+Element+String.swift in Sources */,
+				3D739E35261012D30073C67C /* AuthMethodTableViewCellInteractor.swift in Sources */,
+				3D92456F26047A9C00B9B937 /* ChoiceAuthMethodViewController.swift in Sources */,
+				3DC3063F260B6D36003A6803 /* EmailRegistrationRouter.swift in Sources */,
+				3D3AD51A260782050045E51A /* CGRect+Center.swift in Sources */,
+				3D1C033A260A309500E5CA76 /* TermsOfUseRouter.swift in Sources */,
+				3D344F9A2612BC8800DF3BEA /* EmailProfileInteractor.swift in Sources */,
+				3D1C0341260A310100E5CA76 /* TermsOfUseInteractor.swift in Sources */,
 				3D1984BC2603F02000FB9281 /* LoginAndRegisterUITests.swift in Sources */,
+				3D344F792612BB1400DF3BEA /* EmailProfileViewController.swift in Sources */,
+				3D739E2E261012710073C67C /* AuthMethodTableViewCellPresenter.swift in Sources */,
+				3D3AD4C1260759EE0045E51A /* UIViewController+Firebase+displayError.swift in Sources */,
+				3D93DDE9260A1FD6004B4F50 /* AuthMethodTableViewCell.swift in Sources */,
+				3D0B50682611582A00DBCD3D /* String+letters.swift in Sources */,
+				3D92458726047ADD00B9B937 /* ChoiceAuthMethodEntity.swift in Sources */,
+				3D3AD50626077B740045E51A /* AuthMethod.swift in Sources */,
+				3D56BA172611838000753F9D /* FirebaseModel.xcdatamodeld in Sources */,
+				3DC30654260B6DAA003A6803 /* EmailRegistrationEntity.swift in Sources */,
+				3DC30601260B59EE003A6803 /* Keychain.swift in Sources */,
+				3D92458E26047AE800B9B937 /* ChoiceAuthMethodRouter.swift in Sources */,
+				3D344FA12612BD0900DF3BEA /* EmailProfilePresenter.swift in Sources */,
+				3D924596260484F300B9B937 /* ChoiceAuthMethodConfigurator.swift in Sources */,
+				3D56BA1F2611848800753F9D /* Firebase+CoreDataClass.swift in Sources */,
+				3D10E982260A4A6800B6D0A7 /* EmailAuthPresenter.swift in Sources */,
+				3D344F932612BC1E00DF3BEA /* EmailProfileRouter.swift in Sources */,
+				3D456DC82606080E00E90224 /* EmailAuthViewController+mainStackPosition.swift in Sources */,
+				3D42E59826071F2C00B0FCC6 /* EmailRegistrationViewController.swift in Sources */,
+				3D1BAE2C26114C9F002FD6D7 /* CoreData.swift in Sources */,
+				3D92457926047AB200B9B937 /* ChoiceAuthMethodInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,14 +1280,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3D19849C2603F01E00FB9281 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D19849D2603F01E00FB9281 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3D1984A42603F02000FB9281 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -579,7 +1342,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -634,7 +1397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -646,13 +1409,13 @@
 		};
 		3D1984C12603F02000FB9281 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 976C4D97543B3F6AC974093D /* Pods-LoginAndRegister.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = KXDT64LHVB;
-				INFOPLIST_FILE = LoginAndRegister/Info.plist;
+				INFOPLIST_FILE = "LoginAndRegister/Root Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -667,13 +1430,13 @@
 		};
 		3D1984C22603F02000FB9281 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6382228032A4D63C78128919 /* Pods-LoginAndRegister.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = KXDT64LHVB;
-				INFOPLIST_FILE = LoginAndRegister/Info.plist;
+				INFOPLIST_FILE = "LoginAndRegister/Root Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -688,7 +1451,6 @@
 		};
 		3D1984C42603F02000FB9281 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A909002BDF316C6D6410B86E /* Pods-LoginAndRegisterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -711,7 +1473,6 @@
 		};
 		3D1984C52603F02000FB9281 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D63FFED6A0A64791D3ED141 /* Pods-LoginAndRegisterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -734,7 +1495,6 @@
 		};
 		3D1984C72603F02000FB9281 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBABD1F09E2925ECDC58DC72 /* Pods-LoginAndRegister-LoginAndRegisterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -755,7 +1515,6 @@
 		};
 		3D1984C82603F02000FB9281 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FDCBEC8CCA173925C6B8C4A /* Pods-LoginAndRegister-LoginAndRegisterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -816,13 +1575,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		3D19849F2603F01E00FB9281 /* LoginAndRegister.xcdatamodeld */ = {
+		3D56BA132611838000753F9D /* FirebaseModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				3D1984A02603F01E00FB9281 /* LoginAndRegister.xcdatamodel */,
+				3D56BA142611838000753F9D /* FirebaseModel.xcdatamodel */,
 			);
-			currentVersion = 3D1984A02603F01E00FB9281 /* LoginAndRegister.xcdatamodel */;
-			path = LoginAndRegister.xcdatamodeld;
+			currentVersion = 3D56BA142611838000753F9D /* FirebaseModel.xcdatamodel */;
+			path = FirebaseModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

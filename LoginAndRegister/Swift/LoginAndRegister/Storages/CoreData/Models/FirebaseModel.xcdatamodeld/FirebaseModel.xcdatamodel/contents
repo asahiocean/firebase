@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Firebase" representedClassName="Firebase" syncable="YES">
+        <attribute name="anonymous" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="AuthDataResult"/>
+        <attribute name="apple" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="AuthDataResult"/>
+        <attribute name="email" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="AuthDataResult"/>
+        <attribute name="facebook" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="AuthDataResult"/>
+        <attribute name="gamecenter" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="AuthDataResult"/>
+        <attribute name="github" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="AuthDataResult"/>
+        <attribute name="google" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="AuthDataResult"/>
+        <attribute name="microsoft" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="AuthDataResult"/>
+        <attribute name="phone" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="AuthDataResult"/>
+        <attribute name="playgames" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="AuthDataResult"/>
+        <attribute name="twitter" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="AuthDataResult"/>
+        <attribute name="yahoo" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="AuthDataResult"/>
+    </entity>
+    <elements>
+        <element name="Firebase" positionX="-63" positionY="-18" width="128" height="209"/>
+    </elements>
+</model>
