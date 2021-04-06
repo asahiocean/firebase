@@ -22,7 +22,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="tXT-Vh-ZoG">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="tXT-Vh-ZoG">
                                 <rect key="frame" x="103.5" y="349.5" width="207" height="207"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="tXT-Vh-ZoG" secondAttribute="height" multiplier="1:1" id="Edh-v6-vt0"/>
